@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.nav{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    padding: 0 30px;
+}
+.nav h4{
+    font-size: 20px;
+}
+
+.nav i{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.center{
+    height:40%;
+    width: 100%;
+    padding:40px 50px;
+}
+
+.center h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-right{
+    padding: 40px 50px;
+    /* background-color: red; */
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 50px;
+}
+
+.elem a{
+    color: black;
+    /* background-color: yellow; */
+    text-decoration: none;
+    font-size: 20px;   
+}
+
+.elem i{
+    font-size: 20px;
+    opacity: 0;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+
+.elem:hover{
+    background-color: rgb(228, 228, 228);
+}
+
+.elem:hover a{
+    text-decoration: underline;
+}
+
+.elem{
+    margin:5px;
+    padding: 20px;
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom{
+    height: 350px;
+    width:100%;
+    background-image: url(https://img.freepik.com/premium-photo/cowboy-style-fashionable-man-dressed-leather-jacket-west-fashion-model-handsome-man-cowboy-hat-serious-bearded-biker-stylish-mature-man-looking-modern-mens-western-wardrobe_474717-10620.jpg);
+    background-position:0 25%;
+    background-size: cover;
+}
